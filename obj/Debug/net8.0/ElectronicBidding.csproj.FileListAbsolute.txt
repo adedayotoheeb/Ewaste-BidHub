@@ -1,0 +1,205 @@
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/appsettings.Development.json
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/appsettings.json
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding.deps.json
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding.runtimeconfig.json
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding.dll
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding.pdb
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.csproj.AssemblyReference.cache
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.AssemblyInfoInputs.cache
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.AssemblyInfo.cs
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.csproj.CoreCompileInputs.cache
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.MvcApplicationPartsAssemblyInfo.cs
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.MvcApplicationPartsAssemblyInfo.cache
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/staticwebassets.build.json
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/staticwebassets.development.json
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/staticwebassets/msbuild.ElectronicBidding.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/staticwebassets/msbuild.build.ElectronicBidding.props
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ElectronicBidding.props
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ElectronicBidding.props
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/scopedcss/bundle/ElectronicBidding.styles.css
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/Electron.294772D8.Up2Date
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.dll
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/refint/ElectronicBidding.dll
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.pdb
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.genruntimeconfig.cache
+/Users/adedayoashiru/Documents/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ref/ElectronicBidding.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/appsettings.Development.json
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/appsettings.json
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding.deps.json
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding.runtimeconfig.json
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding.pdb
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/EntityFramework.SqlServer.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/EntityFramework.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/EntityFramework6.Npgsql.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/FluentValidation.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Humanizer.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Extensions.ObjectPool.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Mono.TextTemplating.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Npgsql.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Serilog.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Serilog.AspNetCore.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Serilog.Extensions.Hosting.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Serilog.Extensions.Logging.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Serilog.Formatting.Compact.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Serilog.Settings.Configuration.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Serilog.Sinks.Console.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Serilog.Sinks.Debug.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Serilog.Sinks.File.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.CodeDom.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.Composition.Convention.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.Composition.Hosting.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.Composition.Runtime.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.Composition.TypedParts.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.Data.SqlClient.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.Drawing.Common.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.IO.Pipelines.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.Security.Permissions.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.Text.Encodings.Web.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.Text.Json.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/System.Windows.Extensions.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding.Application.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding.Domain.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding.Infastructure.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding.Application.pdb
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding.Infastructure.pdb
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/bin/Debug/net8.0/ElectronicBidding.Domain.pdb
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.csproj.AssemblyReference.cache
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.AssemblyInfoInputs.cache
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.AssemblyInfo.cs
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.csproj.CoreCompileInputs.cache
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.MvcApplicationPartsAssemblyInfo.cs
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.MvcApplicationPartsAssemblyInfo.cache
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/staticwebassets.build.json
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/staticwebassets.development.json
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/staticwebassets/msbuild.ElectronicBidding.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/staticwebassets/msbuild.build.ElectronicBidding.props
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ElectronicBidding.props
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ElectronicBidding.props
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/scopedcss/bundle/ElectronicBidding.styles.css
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/Electron.294772D8.Up2Date
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/refint/ElectronicBidding.dll
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.pdb
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ElectronicBidding.genruntimeconfig.cache
+/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/Debug/net8.0/ref/ElectronicBidding.dll

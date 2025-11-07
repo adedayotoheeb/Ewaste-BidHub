@@ -1,0 +1,840 @@
+[2025-11-05 13:39:15.941 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-05 13:39:16.025 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-05 13:39:16.026 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-05 13:39:16.026 +01:00  INF]  Hosting environment: Development
+[2025-11-05 13:39:16.026 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-05 13:39:16.765 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-05 13:39:18.073 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 1392.774ms
+[2025-11-05 13:39:18.140 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui.css - null null
+[2025-11-05 13:39:18.143 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui-bundle.js - null null
+[2025-11-05 13:39:18.144 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui-standalone-preset.js - null null
+[2025-11-05 13:39:18.811 +01:00  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2025-11-05 13:39:18.811 +01:00  INF]  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2025-11-05 13:39:18.817 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 672.3332ms
+[2025-11-05 13:39:18.818 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui.css - 200 152034 text/css 676.8581ms
+[2025-11-05 13:39:18.823 +01:00  INF]  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2025-11-05 13:39:18.823 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 679.5025ms
+[2025-11-05 13:39:19.180 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-05 13:39:19.532 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 351.946ms
+[2025-11-05 13:40:58.898 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 88
+[2025-11-05 13:40:58.931 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-05 13:40:58.975 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-05 13:40:59.057 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 500 null application/problem+json 162.5432ms
+[2025-11-05 13:46:54.612 +01:00  INF]  Application is shutting down...
+[2025-11-05 13:48:04.947 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-05 13:48:05.068 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-05 13:48:05.070 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-05 13:48:05.070 +01:00  INF]  Hosting environment: Development
+[2025-11-05 13:48:05.070 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-05 13:48:16.413 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-05 13:48:16.515 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 102.5001ms
+[2025-11-05 13:48:16.762 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-05 13:48:16.849 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.3433ms
+[2025-11-05 13:48:41.631 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 74
+[2025-11-05 13:48:41.680 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-05 13:49:48.834 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-05 13:49:48.915 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 500 null application/problem+json 67284.5376ms
+[2025-11-05 13:50:00.224 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 74
+[2025-11-05 13:50:00.249 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-05 13:50:00.252 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 500 null application/problem+json 29.3265ms
+[2025-11-05 13:50:01.149 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 74
+[2025-11-05 13:50:01.154 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-05 13:50:01.157 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 500 null application/problem+json 8.0606ms
+[2025-11-05 13:50:02.276 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 74
+[2025-11-05 13:50:02.278 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-05 13:50:02.281 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 500 null application/problem+json 5.7052ms
+[2025-11-05 13:50:03.035 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 74
+[2025-11-05 13:50:03.037 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-05 13:50:03.040 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 500 null application/problem+json 4.5409ms
+[2025-11-05 16:21:12.933 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 74
+[2025-11-05 16:21:12.979 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-05 16:21:13.027 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 500 null application/problem+json 102.5468ms
+[2025-11-05 16:21:33.846 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-05 16:21:33.898 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-05 16:21:33.900 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-05 16:21:33.900 +01:00  INF]  Hosting environment: Development
+[2025-11-05 16:21:33.900 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-05 16:21:35.016 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-05 16:21:35.331 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 342.7044ms
+[2025-11-05 16:21:35.485 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui-bundle.js - null null
+[2025-11-05 16:21:36.408 +01:00  INF]  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2025-11-05 16:21:36.415 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 932.7404ms
+[2025-11-05 16:21:36.686 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-05 16:21:37.094 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 406.8821ms
+[2025-11-05 16:21:51.054 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 76
+[2025-11-05 16:21:51.066 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-05 16:21:51.089 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-05 16:21:51.130 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 500 null application/problem+json 76.5187ms
+[2025-11-05 16:25:03.484 +01:00  INF]  Application is shutting down...
+[2025-11-05 16:26:14.074 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-05 16:26:14.136 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-05 16:26:14.138 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-05 16:26:14.138 +01:00  INF]  Hosting environment: Development
+[2025-11-05 16:26:14.138 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-05 16:26:23.182 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-05 16:26:23.280 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 98.9896ms
+[2025-11-05 16:26:23.469 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-05 16:26:23.555 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.5404ms
+[2025-11-05 16:26:33.432 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 67
+[2025-11-05 16:26:33.486 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-05 16:32:15.181 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-05 16:32:15.252 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-05 16:32:15.254 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-05 16:32:15.254 +01:00  INF]  Hosting environment: Development
+[2025-11-05 16:32:15.254 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-05 16:32:20.588 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-05 16:32:20.676 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 88.2604ms
+[2025-11-05 16:32:20.818 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-05 16:32:20.981 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 163.4149ms
+[2025-11-05 16:32:23.067 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 67
+[2025-11-05 16:32:23.082 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-05 16:33:14.712 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding)'
+[2025-11-05 16:33:14.729 +01:00  INF]  Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(ElectronicBidding.Application.Implementation.Users.RegisterUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 16:33:29.749 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding) in 15011.64ms
+[2025-11-05 16:33:29.752 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding)'
+[2025-11-05 16:33:29.754 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Method 'get_Info' in type 'Microsoft.EntityFrameworkCore.Infrastructure.Internal.NpgsqlOptionsExtension' from assembly 'Npgsql.EntityFrameworkCore.PostgreSQL, Version=1.1.0.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7' does not have an implementation.
+   at Microsoft.EntityFrameworkCore.NpgsqlDbContextOptionsExtensions.UseNpgsql
+   at ElectronicBidding.Application.ServiceRegistry.<>c__DisplayClass2_0.<AddDBSettings>b__0(DbContextOptionsBuilder options) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Application/ServiceRegistry.cs:line 40
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean hasDefaultValue, Object key)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[2025-11-05 16:33:29.757 +01:00  ERR]  Unhandled exception occurred
+System.TypeLoadException: Method 'get_Info' in type 'Microsoft.EntityFrameworkCore.Infrastructure.Internal.NpgsqlOptionsExtension' from assembly 'Npgsql.EntityFrameworkCore.PostgreSQL, Version=1.1.0.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7' does not have an implementation.
+   at Microsoft.EntityFrameworkCore.NpgsqlDbContextOptionsExtensions.UseNpgsql
+   at ElectronicBidding.Application.ServiceRegistry.<>c__DisplayClass2_0.<AddDBSettings>b__0(DbContextOptionsBuilder options) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Application/ServiceRegistry.cs:line 40
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean hasDefaultValue, Object key)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[2025-11-05 16:33:29.786 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 500 null application/json; charset=utf-8 66719.2386ms
+[2025-11-05 16:34:28.914 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 67
+[2025-11-05 16:34:29.031 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding)'
+[2025-11-05 16:34:29.032 +01:00  INF]  Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(ElectronicBidding.Application.Implementation.Users.RegisterUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 17:37:23.090 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-05 17:37:23.133 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-05 17:37:23.134 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-05 17:37:23.134 +01:00  INF]  Hosting environment: Development
+[2025-11-05 17:37:23.134 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-05 17:37:24.326 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-05 17:37:24.633 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 451.1901ms
+[2025-11-05 17:37:24.856 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-05 17:37:24.935 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.6902ms
+[2025-11-05 17:37:34.949 +01:00  INF]  Application is shutting down...
+[2025-11-05 18:11:58.390 +01:00  INF]  Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+[2025-11-05 18:11:58.444 +01:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+[2025-11-05 18:11:58.536 +01:00  INF]  Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+[2025-11-05 18:11:58.568 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+[2025-11-05 18:11:58.571 +01:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+[2025-11-05 18:11:58.578 +01:00  INF]  Applying migration '20251105171133_Initial'.
+[2025-11-05 18:11:58.600 +01:00  INF]  Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Users" (
+    "Id" uuid NOT NULL,
+    "Email" character varying(100) NOT NULL,
+    "PasswordHash" text NOT NULL,
+    "Role" integer NOT NULL,
+    CONSTRAINT "PK_Users" PRIMARY KEY ("Id")
+);
+[2025-11-05 18:11:58.613 +01:00  INF]  Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Listings" (
+    "Id" uuid NOT NULL,
+    "Title" character varying(150) NOT NULL,
+    "Description" character varying(500),
+    "BasePrice" numeric NOT NULL,
+    "DiscountedPrice" numeric NOT NULL,
+    "Purpose" text NOT NULL,
+    "ImageUrl" text,
+    "SellerId" uuid NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Listings" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_Listings_Users_SellerId" FOREIGN KEY ("SellerId") REFERENCES "Users" ("Id") ON DELETE CASCADE
+);
+[2025-11-05 18:11:58.618 +01:00  INF]  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Auctions" (
+    "ListingId" uuid NOT NULL,
+    "StartTime" timestamp with time zone NOT NULL,
+    "EndTime" timestamp with time zone NOT NULL,
+    "Status" integer NOT NULL,
+    "CurrentHighestBid" numeric,
+    CONSTRAINT "PK_Auctions" PRIMARY KEY ("ListingId"),
+    CONSTRAINT "FK_Auctions_Listings_ListingId" FOREIGN KEY ("ListingId") REFERENCES "Listings" ("Id") ON DELETE CASCADE
+);
+[2025-11-05 18:11:58.624 +01:00  INF]  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "SalesRecords" (
+    "Id" uuid NOT NULL,
+    "ListingId" uuid NOT NULL,
+    "SellerId" uuid NOT NULL,
+    "BuyerId" uuid NOT NULL,
+    "FinalPrice" numeric NOT NULL,
+    "Purpose" integer NOT NULL,
+    "SoldAt" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_SalesRecords" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_SalesRecords_Listings_ListingId" FOREIGN KEY ("ListingId") REFERENCES "Listings" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_SalesRecords_Users_BuyerId" FOREIGN KEY ("BuyerId") REFERENCES "Users" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_SalesRecords_Users_SellerId" FOREIGN KEY ("SellerId") REFERENCES "Users" ("Id") ON DELETE CASCADE
+);
+[2025-11-05 18:11:58.628 +01:00  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Bids" (
+    "Id" uuid NOT NULL,
+    "Amount" numeric NOT NULL,
+    "Timestamp" timestamp with time zone NOT NULL,
+    "ListingId" uuid NOT NULL,
+    "BuyerId" uuid NOT NULL,
+    "AuctionsListingId" uuid,
+    CONSTRAINT "PK_Bids" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_Bids_Auctions_AuctionsListingId" FOREIGN KEY ("AuctionsListingId") REFERENCES "Auctions" ("ListingId"),
+    CONSTRAINT "FK_Bids_Listings_ListingId" FOREIGN KEY ("ListingId") REFERENCES "Listings" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_Bids_Users_BuyerId" FOREIGN KEY ("BuyerId") REFERENCES "Users" ("Id") ON DELETE CASCADE
+);
+[2025-11-05 18:11:58.630 +01:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Bids_AuctionsListingId" ON "Bids" ("AuctionsListingId");
+[2025-11-05 18:11:58.631 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Bids_BuyerId" ON "Bids" ("BuyerId");
+[2025-11-05 18:11:58.632 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Bids_ListingId" ON "Bids" ("ListingId");
+[2025-11-05 18:11:58.633 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Listings_SellerId" ON "Listings" ("SellerId");
+[2025-11-05 18:11:58.635 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_SalesRecords_BuyerId" ON "SalesRecords" ("BuyerId");
+[2025-11-05 18:11:58.636 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_SalesRecords_ListingId" ON "SalesRecords" ("ListingId");
+[2025-11-05 18:11:58.637 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_SalesRecords_SellerId" ON "SalesRecords" ("SellerId");
+[2025-11-05 18:11:58.638 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Users_Email" ON "Users" ("Email");
+[2025-11-05 18:11:58.651 +01:00  INF]  Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20251105171133_Initial', '8.0.21');
+[2025-11-05 18:21:14.056 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-05 18:21:14.113 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-05 18:21:14.115 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-05 18:21:14.115 +01:00  INF]  Hosting environment: Development
+[2025-11-05 18:21:14.115 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-05 18:21:15.233 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-05 18:21:15.877 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 642.6168ms
+[2025-11-05 18:21:17.553 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-05 18:21:18.064 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 530.5302ms
+[2025-11-05 18:21:39.266 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 79
+[2025-11-05 18:21:39.283 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-05 18:21:39.348 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding)'
+[2025-11-05 18:21:39.377 +01:00  INF]  Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(ElectronicBidding.Application.Implementation.Users.RegisterUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 18:21:39.578 +01:00  INF]  Executing action method ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 18:21:40.653 +01:00  INF]  Executed DbCommand (48ms) [Parameters=[@__request_email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS u
+    WHERE u."Email" = @__request_email_0)
+[2025-11-05 18:21:40.762 +01:00  INF]  Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Id", "Email", "PasswordHash", "Role")
+VALUES (@p0, @p1, @p2, @p3);
+[2025-11-05 18:21:40.769 +01:00  INF]  Executed action method ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding), returned result Microsoft.AspNetCore.Mvc.CreatedResult in 1189.144ms.
+[2025-11-05 18:21:40.775 +01:00  INF]  Executing CreatedResult, writing value of type 'ElectronicBidding.Domain.Abstraction.Result`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-11-05 18:21:40.788 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding) in 1407.8273ms
+[2025-11-05 18:21:40.788 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding)'
+[2025-11-05 18:21:40.797 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 201 null application/json; charset=utf-8 1531.3107ms
+[2025-11-05 18:22:15.138 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/login-user - application/json 60
+[2025-11-05 18:22:15.152 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 18:22:15.164 +01:00  INF]  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElectronicBidding.Application.Implementation.Users.LoginUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 18:22:15.172 +01:00  INF]  Executing action method ElectronicBidding.Controller.UserController.Login (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 18:22:15.219 +01:00  INF]  Executed DbCommand (4ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."PasswordHash", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+[2025-11-05 18:22:15.243 +01:00  INF]  Executed action method ElectronicBidding.Controller.UserController.Login (ElectronicBidding), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 70.2232ms.
+[2025-11-05 18:22:15.244 +01:00  INF]  Executing OkObjectResult, writing value of type 'ElectronicBidding.Domain.Abstraction.Result`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-11-05 18:22:15.244 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.Login (ElectronicBidding) in 79.8479ms
+[2025-11-05 18:22:15.244 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 18:22:15.244 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/login-user - 200 null application/json; charset=utf-8 108.4817ms
+[2025-11-05 18:35:22.599 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 81
+[2025-11-05 18:35:22.639 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding)'
+[2025-11-05 18:35:22.649 +01:00  INF]  Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(ElectronicBidding.Application.Implementation.Users.RegisterUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 18:35:22.687 +01:00  INF]  Executing action method ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 18:35:23.317 +01:00  INF]  Executed DbCommand (9ms) [Parameters=[@__request_email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS u
+    WHERE u."Email" = @__request_email_0)
+[2025-11-05 18:35:23.323 +01:00  INF]  Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Id", "Email", "PasswordHash", "Role")
+VALUES (@p0, @p1, @p2, @p3);
+[2025-11-05 18:35:23.323 +01:00  INF]  Executed action method ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding), returned result Microsoft.AspNetCore.Mvc.CreatedResult in 635.1556ms.
+[2025-11-05 18:35:23.323 +01:00  INF]  Executing CreatedResult, writing value of type 'ElectronicBidding.Domain.Abstraction.Result`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-11-05 18:35:23.324 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding) in 673.8212ms
+[2025-11-05 18:35:23.324 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding)'
+[2025-11-05 18:35:23.324 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 201 null application/json; charset=utf-8 727.9896ms
+[2025-11-05 18:35:42.421 +01:00  INF]  Application is shutting down...
+[2025-11-05 18:35:58.173 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-05 18:35:58.256 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-05 18:35:58.257 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-05 18:35:58.257 +01:00  INF]  Hosting environment: Development
+[2025-11-05 18:35:58.257 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-05 18:35:59.231 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-05 18:35:59.333 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 102.7262ms
+[2025-11-05 18:36:00.073 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-05 18:36:00.171 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 99.1888ms
+[2025-11-05 18:36:44.371 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 74
+[2025-11-05 18:36:44.387 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-05 18:36:52.708 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding)'
+[2025-11-05 18:36:52.721 +01:00  INF]  Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(ElectronicBidding.Application.Implementation.Users.RegisterUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 18:38:00.350 +01:00  INF]  Executing action method ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 18:38:16.424 +01:00  INF]  Executed DbCommand (77ms) [Parameters=[@__request_email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS u
+    WHERE u."Email" = @__request_email_0)
+[2025-11-05 18:38:39.878 +01:00  INF]  Executed DbCommand (29ms) [Parameters=[@__request_email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS u
+    WHERE u."Email" = @__request_email_0)
+[2025-11-05 18:38:46.944 +01:00  INF]  Executed action method ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 46569.7388ms.
+[2025-11-05 18:38:46.964 +01:00  INF]  Executing BadRequestObjectResult, writing value of type 'ElectronicBidding.Domain.Abstraction.Result'.
+[2025-11-05 18:38:46.987 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding) in 114247.4245ms
+[2025-11-05 18:38:46.988 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding)'
+[2025-11-05 18:38:47.001 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 400 null application/json; charset=utf-8 122614.1773ms
+[2025-11-05 18:48:13.847 +01:00  INF]  Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+[2025-11-05 18:48:13.867 +01:00  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+[2025-11-05 18:48:13.902 +01:00  INF]  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+[2025-11-05 18:48:13.933 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+[2025-11-05 18:48:13.934 +01:00  INF]  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+[2025-11-05 18:48:13.940 +01:00  INF]  Applying migration '20251105174801_rolestring'.
+[2025-11-05 18:48:13.983 +01:00  INF]  Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Users" ALTER COLUMN "Role" TYPE varchar(50);
+[2025-11-05 18:48:13.983 +01:00  INF]  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20251105174801_rolestring', '8.0.21');
+[2025-11-05 18:49:06.698 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-05 18:49:06.787 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-05 18:49:06.790 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-05 18:49:06.799 +01:00  INF]  Hosting environment: Development
+[2025-11-05 18:49:06.799 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-05 18:49:07.971 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-05 18:49:08.230 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 306.5165ms
+[2025-11-05 18:49:09.290 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-05 18:49:09.585 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 300.944ms
+[2025-11-05 18:50:42.117 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 79
+[2025-11-05 18:50:42.198 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-05 18:50:42.287 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding)'
+[2025-11-05 18:50:42.316 +01:00  INF]  Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(ElectronicBidding.Application.Implementation.Users.RegisterUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 18:50:42.651 +01:00  INF]  Executing action method ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 18:51:11.386 +01:00  INF]  Executed DbCommand (56ms) [Parameters=[@__request_email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS u
+    WHERE u."Email" = @__request_email_0)
+[2025-11-05 18:51:45.120 +01:00  INF]  Executed DbCommand (11ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Id", "Email", "PasswordHash", "Role")
+VALUES (@p0, @p1, @p2, @p3);
+[2025-11-05 18:51:45.132 +01:00  INF]  Executed action method ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding), returned result Microsoft.AspNetCore.Mvc.CreatedResult in 62477.3953ms.
+[2025-11-05 18:51:45.140 +01:00  INF]  Executing CreatedResult, writing value of type 'ElectronicBidding.Domain.Abstraction.Result`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-11-05 18:51:45.154 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding) in 62835.0991ms
+[2025-11-05 18:51:45.154 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding)'
+[2025-11-05 18:51:45.166 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 201 null application/json; charset=utf-8 63049.2119ms
+[2025-11-05 18:52:12.062 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/login-user - application/json 60
+[2025-11-05 18:52:12.080 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 18:52:12.089 +01:00  INF]  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElectronicBidding.Application.Implementation.Users.LoginUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 18:52:12.111 +01:00  INF]  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2025-11-05 18:52:12.147 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.Login (ElectronicBidding) in 58.0529ms
+[2025-11-05 18:52:12.148 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 18:52:12.148 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/login-user - 400 null application/problem+json; charset=utf-8 87.0984ms
+[2025-11-05 18:52:19.505 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/login-user - application/json 59
+[2025-11-05 18:52:19.516 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 18:52:19.517 +01:00  INF]  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElectronicBidding.Application.Implementation.Users.LoginUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 18:52:19.547 +01:00  INF]  Executing action method ElectronicBidding.Controller.UserController.Login (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 18:52:19.629 +01:00  INF]  Executed DbCommand (27ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."PasswordHash", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+[2025-11-05 18:52:37.127 +01:00  INF]  Executed action method ElectronicBidding.Controller.UserController.Login (ElectronicBidding), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17579.263ms.
+[2025-11-05 18:52:37.128 +01:00  INF]  Executing OkObjectResult, writing value of type 'ElectronicBidding.Domain.Abstraction.Result`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-11-05 18:52:37.129 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.Login (ElectronicBidding) in 17611.0694ms
+[2025-11-05 18:52:37.129 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 18:52:37.129 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/login-user - 200 null application/json; charset=utf-8 17624.5375ms
+[2025-11-05 18:53:25.680 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/login-user - application/json 59
+[2025-11-05 18:53:25.685 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 18:53:25.686 +01:00  INF]  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElectronicBidding.Application.Implementation.Users.LoginUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 18:53:25.689 +01:00  INF]  Executing action method ElectronicBidding.Controller.UserController.Login (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 18:53:25.916 +01:00  INF]  Executed DbCommand (134ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."PasswordHash", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+[2025-11-05 18:55:33.934 +01:00  INF]  Executed action method ElectronicBidding.Controller.UserController.Login (ElectronicBidding), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 128242.5841ms.
+[2025-11-05 18:55:33.945 +01:00  INF]  Executing OkObjectResult, writing value of type 'ElectronicBidding.Domain.Abstraction.Result`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-11-05 18:55:33.950 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.Login (ElectronicBidding) in 128263.0884ms
+[2025-11-05 18:55:33.950 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 18:55:34.002 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/login-user - 200 null application/json; charset=utf-8 128321.1534ms
+[2025-11-05 18:55:41.573 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/login-user - application/json 59
+[2025-11-05 18:55:41.580 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 18:55:41.582 +01:00  INF]  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElectronicBidding.Application.Implementation.Users.LoginUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 18:55:41.591 +01:00  INF]  Executing action method ElectronicBidding.Controller.UserController.Login (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 18:55:46.572 +01:00  INF]  Executed DbCommand (12ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."PasswordHash", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+[2025-11-05 18:57:16.068 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-05 18:57:16.139 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-05 18:57:16.141 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-05 18:57:16.141 +01:00  INF]  Hosting environment: Development
+[2025-11-05 18:57:16.141 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-05 18:57:17.790 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-05 18:57:17.905 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 115.5593ms
+[2025-11-05 18:57:18.151 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-05 18:57:18.938 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 784.2912ms
+[2025-11-05 18:57:30.347 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/login-user - application/json 65
+[2025-11-05 18:57:30.366 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-05 18:57:30.435 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 18:57:30.449 +01:00  INF]  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElectronicBidding.Application.Implementation.Users.LoginUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 18:57:30.652 +01:00  INF]  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2025-11-05 18:57:30.675 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.Login (ElectronicBidding) in 224.5807ms
+[2025-11-05 18:57:30.675 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 18:57:30.676 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/login-user - 400 null application/problem+json; charset=utf-8 330.3741ms
+[2025-11-05 18:57:45.612 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/login-user - application/json 61
+[2025-11-05 18:57:45.650 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 18:57:45.656 +01:00  INF]  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElectronicBidding.Application.Implementation.Users.LoginUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 18:57:45.703 +01:00  INF]  Executing action method ElectronicBidding.Controller.UserController.Login (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 18:57:54.414 +01:00  INF]  Executed DbCommand (55ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."PasswordHash", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+[2025-11-05 18:58:24.454 +01:00  INF]  Executed action method ElectronicBidding.Controller.UserController.Login (ElectronicBidding), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 38746.9013ms.
+[2025-11-05 18:58:24.459 +01:00  INF]  Executing OkObjectResult, writing value of type 'ElectronicBidding.Domain.Abstraction.Result`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-11-05 18:58:24.467 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.Login (ElectronicBidding) in 38810.4874ms
+[2025-11-05 18:58:24.467 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 18:58:24.486 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/login-user - 200 null application/json; charset=utf-8 38873.3872ms
+[2025-11-05 19:09:23.081 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 81
+[2025-11-05 19:09:23.154 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding)'
+[2025-11-05 19:09:23.220 +01:00  INF]  Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(ElectronicBidding.Application.Implementation.Users.RegisterUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 19:09:23.302 +01:00  INF]  Executing action method ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 19:09:49.966 +01:00  INF]  Executed DbCommand (30ms) [Parameters=[@__request_email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS u
+    WHERE u."Email" = @__request_email_0)
+[2025-11-05 19:09:49.976 +01:00  INF]  Executed action method ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 26673.4254ms.
+[2025-11-05 19:09:49.976 +01:00  INF]  Executing BadRequestObjectResult, writing value of type 'ElectronicBidding.Domain.Abstraction.Result'.
+[2025-11-05 19:09:49.978 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding) in 26757.7775ms
+[2025-11-05 19:09:49.979 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.RegisterUser (ElectronicBidding)'
+[2025-11-05 19:09:49.979 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 400 null application/json; charset=utf-8 26905.1383ms
+[2025-11-05 19:17:47.327 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-05 19:17:47.421 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-05 19:17:47.423 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-05 19:17:47.423 +01:00  INF]  Hosting environment: Development
+[2025-11-05 19:17:47.423 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-05 19:17:48.611 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-05 19:17:48.733 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 125.1807ms
+[2025-11-05 19:17:49.035 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-05 19:17:49.194 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 160.3972ms
+[2025-11-05 19:20:27.046 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/update-role?userId=5aebb6f5-39e7-44dd-a1d0-47be91f576ac&prefferdrole=Buyer - null 0
+[2025-11-05 19:20:27.099 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-05 19:20:27.216 +01:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+[2025-11-05 19:20:27.220 +01:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2025-11-05 19:20:27.221 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/update-role?userId=5aebb6f5-39e7-44dd-a1d0-47be91f576ac&prefferdrole=Buyer - 401 0 null 175.4576ms
+[2025-11-05 19:21:11.289 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/login-user - application/json 59
+[2025-11-05 19:21:11.316 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 19:21:11.361 +01:00  INF]  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElectronicBidding.Application.Implementation.Users.LoginUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 19:21:11.705 +01:00  INF]  Executing action method ElectronicBidding.Controller.UserController.Login (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 19:21:16.310 +01:00  INF]  Executed DbCommand (57ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."PasswordHash", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+[2025-11-05 19:21:18.408 +01:00  INF]  Executed action method ElectronicBidding.Controller.UserController.Login (ElectronicBidding), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6698.4795ms.
+[2025-11-05 19:21:18.437 +01:00  INF]  Executing OkObjectResult, writing value of type 'ElectronicBidding.Domain.Abstraction.Result`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-11-05 19:21:18.458 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.Login (ElectronicBidding) in 7091.6073ms
+[2025-11-05 19:21:18.459 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 19:21:18.473 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/login-user - 200 null application/json; charset=utf-8 7184.2511ms
+[2025-11-05 19:21:42.425 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/update-role?userId=5aebb6f5-39e7-44dd-a1d0-47be91f576ac&prefferdrole=Buyer - null 0
+[2025-11-05 19:21:42.494 +01:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+[2025-11-05 19:21:42.495 +01:00  INF]  AuthenticationScheme: Bearer was forbidden.
+[2025-11-05 19:21:42.495 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/update-role?userId=5aebb6f5-39e7-44dd-a1d0-47be91f576ac&prefferdrole=Buyer - 403 0 null 70.6625ms
+[2025-11-05 19:21:51.135 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/update-role?userId=5aebb6f5-39e7-44dd-a1d0-47be91f576ac&prefferdrole=Seller - null 0
+[2025-11-05 19:21:51.142 +01:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+[2025-11-05 19:21:51.143 +01:00  INF]  AuthenticationScheme: Bearer was forbidden.
+[2025-11-05 19:21:51.143 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/update-role?userId=5aebb6f5-39e7-44dd-a1d0-47be91f576ac&prefferdrole=Seller - 403 0 null 8.4619ms
+[2025-11-05 19:29:41.605 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/update-role?userId=5aebb6f5-39e7-44dd-a1d0-47be91f576ac&prefferdrole=Seller - null 0
+[2025-11-05 19:29:41.655 +01:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+[2025-11-05 19:29:41.656 +01:00  INF]  AuthenticationScheme: Bearer was forbidden.
+[2025-11-05 19:29:41.657 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/update-role?userId=5aebb6f5-39e7-44dd-a1d0-47be91f576ac&prefferdrole=Seller - 403 0 null 53.4862ms
+[2025-11-05 19:29:49.922 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/update-role?userId=5aebb6f5-39e7-44dd-a1d0-47be91f576ac&prefferdrole=Seller - null 0
+[2025-11-05 19:29:49.924 +01:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+[2025-11-05 19:29:49.924 +01:00  INF]  AuthenticationScheme: Bearer was forbidden.
+[2025-11-05 19:29:49.925 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/update-role?userId=5aebb6f5-39e7-44dd-a1d0-47be91f576ac&prefferdrole=Seller - 403 0 null 2.6055ms
+[2025-11-05 19:29:52.567 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/update-role?userId=5aebb6f5-39e7-44dd-a1d0-47be91f576ac&prefferdrole=Seller - null 0
+[2025-11-05 19:29:52.569 +01:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+[2025-11-05 19:29:52.569 +01:00  INF]  AuthenticationScheme: Bearer was forbidden.
+[2025-11-05 19:29:52.569 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/update-role?userId=5aebb6f5-39e7-44dd-a1d0-47be91f576ac&prefferdrole=Seller - 403 0 null 1.9759ms
+[2025-11-05 19:30:01.050 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-05 19:30:01.114 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-05 19:30:01.141 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-05 19:30:01.141 +01:00  INF]  Hosting environment: Development
+[2025-11-05 19:30:01.141 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-05 19:30:02.874 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-05 19:30:03.014 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 145.9242ms
+[2025-11-05 19:30:03.452 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-05 19:30:03.617 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 167.781ms
+[2025-11-05 19:30:56.087 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/login-user - application/json 59
+[2025-11-05 19:30:56.182 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-05 19:30:56.258 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 19:30:56.294 +01:00  INF]  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElectronicBidding.Application.Implementation.Users.LoginUserRequest) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 19:30:56.627 +01:00  INF]  Executing action method ElectronicBidding.Controller.UserController.Login (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 19:31:01.341 +01:00  INF]  Executed DbCommand (158ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."PasswordHash", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+[2025-11-05 19:31:03.293 +01:00  INF]  Executed action method ElectronicBidding.Controller.UserController.Login (ElectronicBidding), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6662.2581ms.
+[2025-11-05 19:31:03.304 +01:00  INF]  Executing OkObjectResult, writing value of type 'ElectronicBidding.Domain.Abstraction.Result`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-11-05 19:31:03.327 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.Login (ElectronicBidding) in 7029.7747ms
+[2025-11-05 19:31:03.328 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.Login (ElectronicBidding)'
+[2025-11-05 19:31:03.339 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/login-user - 200 null application/json; charset=utf-8 7252.384ms
+[2025-11-05 19:33:54.085 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/update-role?userId=abbfe13e-8f3f-4011-b142-4a8a3b86a3fc&prefferdrole=Seller - null 0
+[2025-11-05 19:33:54.160 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.UserController.UpdateRole (ElectronicBidding)'
+[2025-11-05 19:33:54.177 +01:00  INF]  Route matched with {action = "UpdateRole", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRole(System.String, ElectronicBidding.Domain.Users.Role) on controller ElectronicBidding.Controller.UserController (ElectronicBidding).
+[2025-11-05 19:33:54.197 +01:00  INF]  Executing action method ElectronicBidding.Controller.UserController.UpdateRole (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 19:34:51.083 +01:00  INF]  Executed DbCommand (12ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."PasswordHash", u."Role"
+FROM "Users" AS u
+WHERE u."Id"::text = @__userId_0
+LIMIT 1
+[2025-11-05 19:35:07.658 +01:00  INF]  Executed DbCommand (55ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Users" SET "Role" = @p0
+WHERE "Id" = @p1;
+[2025-11-05 19:36:26.051 +01:00  INF]  Executed action method ElectronicBidding.Controller.UserController.UpdateRole (ElectronicBidding), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 151809.735ms.
+[2025-11-05 19:36:26.172 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/api/Listing/get-my-listing - null null
+[2025-11-05 19:36:26.176 +01:00  INF]  Executing OkObjectResult, writing value of type 'ElectronicBidding.Domain.Abstraction.Result`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-11-05 19:36:26.179 +01:00  INF]  Executed action ElectronicBidding.Controller.UserController.UpdateRole (ElectronicBidding) in 152001.4022ms
+[2025-11-05 19:36:26.179 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.UserController.UpdateRole (ElectronicBidding)'
+[2025-11-05 19:36:26.180 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.ListingController.GetCurrentUserListing (ElectronicBidding)'
+[2025-11-05 19:36:26.181 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/update-role?userId=abbfe13e-8f3f-4011-b142-4a8a3b86a3fc&prefferdrole=Seller - 200 null application/json; charset=utf-8 152096.7905ms
+[2025-11-05 19:36:26.254 +01:00  INF]  Route matched with {action = "GetCurrentUserListing", controller = "Listing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCurrentUserListing() on controller ElectronicBidding.Controller.ListingController (ElectronicBidding).
+[2025-11-05 19:36:26.257 +01:00  INF]  Executing action method ElectronicBidding.Controller.ListingController.GetCurrentUserListing (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 19:36:26.471 +01:00  INF]  Executed DbCommand (70ms) [Parameters=[@__sellerId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT l."Id", l."BasePrice", l."CreatedAt", l."Description", l."DiscountedPrice", l."ImageUrl", l."Purpose", l."SellerId", l."Title", a."ListingId", s."Id", b."Id", b."Amount", b."AuctionsListingId", b."BuyerId", b."ListingId", b."Timestamp", a."CurrentHighestBid", a."EndTime", a."StartTime", a."Status", s."BuyerId", s."FinalPrice", s."ListingId", s."Purpose", s."SellerId", s."SoldAt"
+FROM "Listings" AS l
+LEFT JOIN "Auctions" AS a ON l."Id" = a."ListingId"
+LEFT JOIN "SalesRecords" AS s ON l."Id" = s."ListingId"
+LEFT JOIN "Bids" AS b ON l."Id" = b."ListingId"
+WHERE l."SellerId" = @__sellerId_0
+ORDER BY l."Id", a."ListingId", s."Id"
+[2025-11-05 19:36:26.474 +01:00  INF]  Executed action method ElectronicBidding.Controller.ListingController.GetCurrentUserListing (ElectronicBidding), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 217.4303ms.
+[2025-11-05 19:36:26.474 +01:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ElectronicBidding.Domain.Listings.EWasteListing, ElectronicBidding.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2025-11-05 19:36:26.514 +01:00  INF]  Executed action ElectronicBidding.Controller.ListingController.GetCurrentUserListing (ElectronicBidding) in 259.7755ms
+[2025-11-05 19:36:26.514 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.ListingController.GetCurrentUserListing (ElectronicBidding)'
+[2025-11-05 19:36:26.514 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/api/Listing/get-my-listing - 200 null application/json; charset=utf-8 341.987ms
+[2025-11-05 19:44:52.640 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/api/Listing/get-listing - null null
+[2025-11-05 19:44:52.687 +01:00  INF]  Executing endpoint 'ElectronicBidding.Controller.ListingController.GetListing (ElectronicBidding)'
+[2025-11-05 19:44:52.739 +01:00  INF]  Route matched with {action = "GetListing", controller = "Listing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListing(ElectronicBidding.Application.Implementation.Listing.ListingQueryParameters) on controller ElectronicBidding.Controller.ListingController (ElectronicBidding).
+[2025-11-05 19:44:52.777 +01:00  INF]  Executing action method ElectronicBidding.Controller.ListingController.GetListing (ElectronicBidding) - Validation state: "Valid"
+[2025-11-05 19:44:53.556 +01:00  INF]  Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Listings" AS l
+[2025-11-05 19:44:53.653 +01:00  INF]  Executed DbCommand (49ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Title", t."Description", t."Purpose", t."BasePrice", t."DiscountedPrice", u."Email" AS "SellerName", t."CreatedAt"
+FROM (
+    SELECT l."Id", l."BasePrice", l."CreatedAt", l."Description", l."DiscountedPrice", l."Purpose", l."SellerId", l."Title"
+    FROM "Listings" AS l
+    ORDER BY l."CreatedAt" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+INNER JOIN "Users" AS u ON t."SellerId" = u."Id"
+ORDER BY t."CreatedAt" DESC
+[2025-11-05 19:44:53.655 +01:00  INF]  Executed action method ElectronicBidding.Controller.ListingController.GetListing (ElectronicBidding), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 877.3855ms.
+[2025-11-05 19:44:53.656 +01:00  INF]  Executing OkObjectResult, writing value of type 'ElectronicBidding.Domain.Abstraction.Result`1[[ElectronicBidding.Application.Implementation.Listing.PagedResult`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ElectronicBidding.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2025-11-05 19:44:53.664 +01:00  INF]  Executed action ElectronicBidding.Controller.ListingController.GetListing (ElectronicBidding) in 923.9934ms
+[2025-11-05 19:44:53.664 +01:00  INF]  Executed endpoint 'ElectronicBidding.Controller.ListingController.GetListing (ElectronicBidding)'
+[2025-11-05 19:44:53.664 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/api/Listing/get-listing - 200 null application/json; charset=utf-8 1026.1467ms
+[2025-11-05 19:45:31.982 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-05 19:45:32.053 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-05 19:45:32.055 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-05 19:45:32.055 +01:00  INF]  Hosting environment: Development
+[2025-11-05 19:45:32.055 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-05 19:45:33.104 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-05 19:45:33.918 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 813.8273ms
+[2025-11-05 19:45:34.468 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-05 19:45:34.607 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 152.0605ms

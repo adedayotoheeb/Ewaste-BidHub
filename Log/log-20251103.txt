@@ -1,0 +1,314 @@
+[2025-11-03 08:10:27.619 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-03 08:10:27.642 +01:00  INF]  Creating key {5325384d-75f1-4431-ba4b-8d0c51082193} with creation date 2025-11-03 07:10:27Z, activation date 2025-11-03 07:10:27Z, and expiration date 2026-02-01 07:10:27Z.
+[2025-11-03 08:10:27.646 +01:00  WRN]  No XML encryptor configured. Key {5325384d-75f1-4431-ba4b-8d0c51082193} may be persisted to storage in unencrypted form.
+[2025-11-03 08:10:27.647 +01:00  INF]  Writing data to file '/Users/adedayoashiru/.aspnet/DataProtection-Keys/key-5325384d-75f1-4431-ba4b-8d0c51082193.xml'.
+[2025-11-03 08:10:27.661 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-03 08:10:27.662 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-03 08:10:27.663 +01:00  INF]  Hosting environment: Development
+[2025-11-03 08:10:27.663 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-03 08:10:28.312 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-03 08:10:28.400 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 97.9649ms
+[2025-11-03 08:10:28.411 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui.css - null null
+[2025-11-03 08:10:28.411 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui-bundle.js - null null
+[2025-11-03 08:10:28.411 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui-standalone-preset.js - null null
+[2025-11-03 08:10:28.436 +01:00  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2025-11-03 08:10:28.437 +01:00  INF]  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2025-11-03 08:10:28.437 +01:00  INF]  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2025-11-03 08:10:28.438 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui.css - 200 152034 text/css 28.0508ms
+[2025-11-03 08:10:28.438 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 27.8907ms
+[2025-11-03 08:10:28.438 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 28.0498ms
+[2025-11-03 08:10:28.626 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-03 08:10:28.667 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Listing" for actions - ElectronicBidding.Controller.ListingController.GetCurrentUserListing (ElectronicBidding),ElectronicBidding.Controller.ListingController.CreateListing (ElectronicBidding). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-03 08:10:28.702 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 500 null application/problem+json 75.9273ms
+[2025-11-03 08:10:32.472 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/favicon.ico - null null
+[2025-11-03 08:10:32.479 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-03 08:10:32.500 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-03 08:10:32.503 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/favicon.ico - 500 null application/problem+json 31.6999ms
+[2025-11-03 08:10:40.281 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/.well-known/appspecific/com.chrome.devtools.json - null null
+[2025-11-03 08:10:40.291 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-03 08:10:40.294 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/.well-known/appspecific/com.chrome.devtools.json - 500 null application/problem+json 13.1502ms
+[2025-11-03 08:10:43.460 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-03 08:10:43.465 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 4.7267ms
+[2025-11-03 08:10:43.502 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/.well-known/appspecific/com.chrome.devtools.json - null null
+[2025-11-03 08:10:43.510 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-03 08:10:43.512 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/.well-known/appspecific/com.chrome.devtools.json - 500 null application/problem+json 9.9576ms
+[2025-11-03 08:10:43.676 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-03 08:10:43.682 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Listing" for actions - ElectronicBidding.Controller.ListingController.GetCurrentUserListing (ElectronicBidding),ElectronicBidding.Controller.ListingController.CreateListing (ElectronicBidding). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-03 08:10:43.684 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 500 null application/problem+json 7.1577ms
+[2025-11-03 08:11:43.688 +01:00  INF]  Application is shutting down...
+[2025-11-03 08:11:58.136 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-03 08:11:58.358 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-03 08:11:58.359 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-03 08:11:58.359 +01:00  INF]  Hosting environment: Development
+[2025-11-03 08:11:58.359 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-03 08:11:59.235 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-03 08:11:59.311 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 77.1962ms
+[2025-11-03 08:11:59.439 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-03 08:11:59.504 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 65.4875ms
+[2025-11-03 08:16:37.858 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 80
+[2025-11-03 08:16:37.890 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-03 08:16:37.914 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-03 08:16:37.972 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 500 null application/problem+json 115.9763ms
+[2025-11-03 08:31:42.292 +01:00  INF]  Application is shutting down...
+[2025-11-03 08:33:23.713 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-03 08:33:23.756 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-03 08:33:23.757 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-03 08:33:23.758 +01:00  INF]  Hosting environment: Development
+[2025-11-03 08:33:23.758 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-03 08:33:26.730 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-03 08:33:26.822 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 93.255ms
+[2025-11-03 08:33:26.972 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-03 08:33:27.045 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.3185ms
+[2025-11-03 08:35:28.640 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-03 08:35:28.649 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 8.642ms
+[2025-11-03 08:35:28.758 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-03 08:35:28.779 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.1288ms
+[2025-11-03 08:36:15.598 +01:00  INF]  Application is shutting down...
+[2025-11-03 08:36:32.451 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-03 08:36:32.489 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-03 08:36:32.491 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-03 08:36:32.491 +01:00  INF]  Hosting environment: Development
+[2025-11-03 08:36:32.491 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-03 08:36:32.632 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-03 08:36:32.939 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 307.0632ms
+[2025-11-03 08:36:33.109 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-03 08:36:33.180 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.0431ms
+[2025-11-03 08:39:10.187 +01:00  INF]  Application is shutting down...
+[2025-11-03 08:40:19.795 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-03 08:40:19.835 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-03 08:40:19.837 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-03 08:40:19.837 +01:00  INF]  Hosting environment: Development
+[2025-11-03 08:40:19.837 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-03 08:40:20.468 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-03 08:40:20.856 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 388.6993ms
+[2025-11-03 08:40:20.993 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-03 08:40:21.067 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 75.1658ms
+[2025-11-03 08:41:52.944 +01:00  INF]  Application is shutting down...
+[2025-11-03 08:42:09.879 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-03 08:42:09.924 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-03 08:42:09.925 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-03 08:42:09.925 +01:00  INF]  Hosting environment: Development
+[2025-11-03 08:42:09.925 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-03 08:42:10.555 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-03 08:42:10.629 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 74.6055ms
+[2025-11-03 08:42:10.917 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-03 08:42:11.138 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 227.4958ms
+[2025-11-03 08:42:28.387 +01:00  INF]  Application is shutting down...
+[2025-11-03 14:02:27.271 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-03 14:02:27.312 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-03 14:02:27.313 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-03 14:02:27.313 +01:00  INF]  Hosting environment: Development
+[2025-11-03 14:02:27.313 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-03 14:02:27.782 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-03 14:02:28.091 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 310.5771ms
+[2025-11-03 14:02:28.298 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-03 14:02:28.378 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.7589ms
+[2025-11-03 15:19:27.312 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 83
+[2025-11-03 15:19:27.386 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-03 15:19:27.429 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-03 15:19:27.544 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 500 null application/problem+json 237.2703ms
+[2025-11-03 15:22:05.588 +01:00  INF]  Application is shutting down...
+[2025-11-03 15:22:10.435 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-03 15:22:10.475 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-03 15:22:10.476 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-03 15:22:10.476 +01:00  INF]  Hosting environment: Development
+[2025-11-03 15:22:10.476 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-03 15:22:11.154 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-03 15:22:11.526 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 373.3823ms
+[2025-11-03 15:22:11.667 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-03 15:22:11.752 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.3268ms
+[2025-11-03 15:23:48.835 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 81
+[2025-11-03 15:23:48.854 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-03 15:23:48.879 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-03 15:23:48.928 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 500 null application/problem+json 92.8684ms
+[2025-11-03 15:26:18.237 +01:00  INF]  Application is shutting down...
+[2025-11-03 15:27:48.972 +01:00  INF]  User profile is available. Using '/Users/adedayoashiru/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-11-03 15:27:49.018 +01:00  INF]  Now listening on: http://localhost:5103
+[2025-11-03 15:27:49.020 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2025-11-03 15:27:49.020 +01:00  INF]  Hosting environment: Development
+[2025-11-03 15:27:49.020 +01:00  INF]  Content root path: /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding
+[2025-11-03 15:27:49.528 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+[2025-11-03 15:27:49.782 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 200 null text/html;charset=utf-8 255.4192ms
+[2025-11-03 15:27:49.973 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+[2025-11-03 15:27:50.044 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.953ms
+[2025-11-03 15:27:59.075 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 67
+[2025-11-03 15:27:59.099 +01:00  WRN]  Failed to determine the https port for redirect.
+[2025-11-03 15:27:59.117 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-03 15:27:59.157 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 500 null application/problem+json 82.5735ms
+[2025-11-03 15:29:17.454 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:5103/api/User/register-user - application/json 67
+[2025-11-03 15:29:17.466 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at ElectronicBidding.Extensions.ServiceRegistery.<>c__DisplayClass1_0.<AddSwaggerConfiguration>b__1(JwtBearerOptions x) in /Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/Extensions/ServiceRegistry.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-11-03 15:29:17.473 +01:00  INF]  Request finished HTTP/1.1 POST http://localhost:5103/api/User/register-user - 500 null application/problem+json 18.9756ms

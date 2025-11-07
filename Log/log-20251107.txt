@@ -1,0 +1,120 @@
+[2025-11-07 09:02:45.638 +01:00  INF]  Executed DbCommand (174ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+[2025-11-07 09:02:47.042 +01:00  INF]  Executed DbCommand (163ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+[2025-11-07 09:02:48.724 +01:00  INF]  Executed DbCommand (210ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+[2025-11-07 09:02:49.979 +01:00  INF]  Executed DbCommand (150ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+[2025-11-07 09:02:50.129 +01:00  INF]  Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+[2025-11-07 09:02:50.152 +01:00  INF]  Applying migration '20251105171133_Initial'.
+[2025-11-07 09:02:50.378 +01:00  INF]  Executed DbCommand (199ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Users" (
+    "Id" uuid NOT NULL,
+    "Email" character varying(100) NOT NULL,
+    "PasswordHash" text NOT NULL,
+    "Role" integer NOT NULL,
+    CONSTRAINT "PK_Users" PRIMARY KEY ("Id")
+);
+[2025-11-07 09:02:50.524 +01:00  INF]  Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Listings" (
+    "Id" uuid NOT NULL,
+    "Title" character varying(150) NOT NULL,
+    "Description" character varying(500),
+    "BasePrice" numeric NOT NULL,
+    "DiscountedPrice" numeric NOT NULL,
+    "Purpose" text NOT NULL,
+    "ImageUrl" text,
+    "SellerId" uuid NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Listings" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_Listings_Users_SellerId" FOREIGN KEY ("SellerId") REFERENCES "Users" ("Id") ON DELETE CASCADE
+);
+[2025-11-07 09:02:50.671 +01:00  INF]  Executed DbCommand (147ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Auctions" (
+    "ListingId" uuid NOT NULL,
+    "StartTime" timestamp with time zone NOT NULL,
+    "EndTime" timestamp with time zone NOT NULL,
+    "Status" integer NOT NULL,
+    "CurrentHighestBid" numeric,
+    CONSTRAINT "PK_Auctions" PRIMARY KEY ("ListingId"),
+    CONSTRAINT "FK_Auctions_Listings_ListingId" FOREIGN KEY ("ListingId") REFERENCES "Listings" ("Id") ON DELETE CASCADE
+);
+[2025-11-07 09:02:50.905 +01:00  INF]  Executed DbCommand (233ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "SalesRecords" (
+    "Id" uuid NOT NULL,
+    "ListingId" uuid NOT NULL,
+    "SellerId" uuid NOT NULL,
+    "BuyerId" uuid NOT NULL,
+    "FinalPrice" numeric NOT NULL,
+    "Purpose" integer NOT NULL,
+    "SoldAt" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_SalesRecords" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_SalesRecords_Listings_ListingId" FOREIGN KEY ("ListingId") REFERENCES "Listings" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_SalesRecords_Users_BuyerId" FOREIGN KEY ("BuyerId") REFERENCES "Users" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_SalesRecords_Users_SellerId" FOREIGN KEY ("SellerId") REFERENCES "Users" ("Id") ON DELETE CASCADE
+);
+[2025-11-07 09:02:51.110 +01:00  INF]  Executed DbCommand (205ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Bids" (
+    "Id" uuid NOT NULL,
+    "Amount" numeric NOT NULL,
+    "Timestamp" timestamp with time zone NOT NULL,
+    "ListingId" uuid NOT NULL,
+    "BuyerId" uuid NOT NULL,
+    "AuctionsListingId" uuid,
+    CONSTRAINT "PK_Bids" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_Bids_Auctions_AuctionsListingId" FOREIGN KEY ("AuctionsListingId") REFERENCES "Auctions" ("ListingId"),
+    CONSTRAINT "FK_Bids_Listings_ListingId" FOREIGN KEY ("ListingId") REFERENCES "Listings" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_Bids_Users_BuyerId" FOREIGN KEY ("BuyerId") REFERENCES "Users" ("Id") ON DELETE CASCADE
+);
+[2025-11-07 09:02:51.262 +01:00  INF]  Executed DbCommand (151ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Bids_AuctionsListingId" ON "Bids" ("AuctionsListingId");
+[2025-11-07 09:02:51.417 +01:00  INF]  Executed DbCommand (154ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Bids_BuyerId" ON "Bids" ("BuyerId");
+[2025-11-07 09:02:51.555 +01:00  INF]  Executed DbCommand (137ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Bids_ListingId" ON "Bids" ("ListingId");
+[2025-11-07 09:02:51.728 +01:00  INF]  Executed DbCommand (173ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Listings_SellerId" ON "Listings" ("SellerId");
+[2025-11-07 09:02:51.907 +01:00  INF]  Executed DbCommand (179ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_SalesRecords_BuyerId" ON "SalesRecords" ("BuyerId");
+[2025-11-07 09:02:52.059 +01:00  INF]  Executed DbCommand (149ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_SalesRecords_ListingId" ON "SalesRecords" ("ListingId");
+[2025-11-07 09:02:52.195 +01:00  INF]  Executed DbCommand (135ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_SalesRecords_SellerId" ON "SalesRecords" ("SellerId");
+[2025-11-07 09:02:52.346 +01:00  INF]  Executed DbCommand (151ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Users_Email" ON "Users" ("Email");
+[2025-11-07 09:02:52.492 +01:00  INF]  Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20251105171133_Initial', '8.0.21');
+[2025-11-07 09:02:52.644 +01:00  INF]  Applying migration '20251105174801_rolestring'.
+[2025-11-07 09:02:52.806 +01:00  INF]  Executed DbCommand (144ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Users" ALTER COLUMN "Role" TYPE varchar(50);
+[2025-11-07 09:02:52.942 +01:00  INF]  Executed DbCommand (136ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20251105174801_rolestring', '8.0.21');
+[2025-11-07 09:02:53.106 +01:00  INF]  Applying migration '20251107074457_origin'.
+[2025-11-07 09:02:53.250 +01:00  INF]  Executed DbCommand (138ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20251107074457_origin', '8.0.21');

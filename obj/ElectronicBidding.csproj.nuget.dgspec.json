@@ -1,0 +1,344 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/ElectronicBidding.csproj": {}
+  },
+  "projects": {
+    "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Application/ElectronicBidding.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Application/ElectronicBidding.Application.csproj",
+        "projectName": "ElectronicBidding.Application",
+        "projectPath": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Application/ElectronicBidding.Application.csproj",
+        "packagesPath": "/Users/adedayoashiru/.nuget/packages/",
+        "outputPath": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adedayoashiru/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Domain/ElectronicBidding.Domain.csproj": {
+                "projectPath": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Domain/ElectronicBidding.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Domain/ElectronicBidding.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Domain/ElectronicBidding.Domain.csproj",
+        "projectName": "ElectronicBidding.Domain",
+        "projectPath": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Domain/ElectronicBidding.Domain.csproj",
+        "packagesPath": "/Users/adedayoashiru/.nuget/packages/",
+        "outputPath": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adedayoashiru/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Infastructure/ElectronicBidding.Infastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Infastructure/ElectronicBidding.Infastructure.csproj",
+        "projectName": "ElectronicBidding.Infastructure",
+        "projectPath": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Infastructure/ElectronicBidding.Infastructure.csproj",
+        "packagesPath": "/Users/adedayoashiru/.nuget/packages/",
+        "outputPath": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Infastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adedayoashiru/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Application/ElectronicBidding.Application.csproj": {
+                "projectPath": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Application/ElectronicBidding.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework6.Npgsql": {
+              "target": "Package",
+              "version": "[6.4.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/ElectronicBidding.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/ElectronicBidding.csproj",
+        "projectName": "ElectronicBidding",
+        "projectPath": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/ElectronicBidding.csproj",
+        "packagesPath": "/Users/adedayoashiru/.nuget/packages/",
+        "outputPath": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adedayoashiru/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Application/ElectronicBidding.Application.csproj": {
+                "projectPath": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Application/ElectronicBidding.Application.csproj"
+              },
+              "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Infastructure/ElectronicBidding.Infastructure.csproj": {
+                "projectPath": "/Users/adedayoashiru/Downloads/ElectronicBidding 2/ElectronicBidding 2/ElectronicBidding/ElectronicBidding.Infastructure/ElectronicBidding.Infastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
